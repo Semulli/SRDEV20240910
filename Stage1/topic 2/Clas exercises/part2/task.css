@@ -1,0 +1,187 @@
+/* /* .box {
+  width: 100px;
+  height: 100px;
+  margin: 20px 10px;
+  border: 1px solid aqua;
+  background-color: aquamarine;
+  box-shadow: 6px 6px 6px 6px;
+  text-shadow: 10px 10px 10px 10px;
+}
+
+.p1 {
+  background-color: aquamarine;
+}
+.p2 {
+  background-color: aquamarine;
+}
+
+.box1 {
+  width: 100%;
+  height: auto;
+  text-overflow: ellipsis;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 30px;
+  background-color: blueviolet;
+  border: 1px solid black;
+}
+
+.box2 {
+  background-color: cornflowerblue;
+  padding: 10px 20px;
+  height: 60px;
+  width: 50%;
+}
+.box3 {
+  background-color: brown;
+  height: 40px;
+  width: 50%;
+  padding: 10px 10px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p:hover {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box4 {
+  border: 1px solid black;
+  margin: 10px 10px;
+}
+
+.span1 {
+  border: 1px solid black;
+}
+.span2 {
+  border: 1px solid black;
+}
+.span3 {
+  border: 1px solid black;
+} */
+
+/* .box5 {
+  border: 3px solid blue;
+  height: 100px;
+  width: 300px;
+  padding: 10px 20px 30px 40px;
+  text-align: right;
+}
+p {
+  text-align: right;
+  margin: lef;
+} */
+/* .btn {
+  color: brown;
+}
+.btn:hover {
+  color: blueviolet;
+}
+div p:nth-child(1) {
+  color: red;
+} */
+
+/* input {
+  border: 1px solid rgb(17, 12, 22);
+}
+
+input:focus {
+  border: 3px solid rgb(216, 10, 10);
+}
+
+div li:nth-child(odd) {
+  color: rgb(241, 144, 0);
+} */
+
+/* .link1:disabled {
+  color: grey;
+}
+
+.right-image {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
+.left-image {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.link {
+  float: left;
+  margin: 10px;
+}
+
+.link1 {
+  float: right;
+  margin: 10px 10px;
+} */
+
+/* .box1 {
+  background-color: pink;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.box2 {
+  background-color: purple;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+.box3 {
+  background-color: blue;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+p {
+  clear: both; /* Ensures the paragraph is below the floated divs */
+/* } */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  padding-top: 20px;
+  clear: both;
+  border: 1px solid black;
+  background-color: rgb(0, 75, 42);
+  height: 60px;
+  text-align: center;
+}
+
+.main-content {
+  float: left;
+  padding: 40px;
+  width: 60%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.sidebar {
+  float: left;
+  width: 40%;
+  background-color: rgb(0, 0, 0);
+  padding: 40px;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  clear: both;
+  background-color: rgb(73, 48, 255);
+  border: 1px solid black;
+  height: 60px;
+  padding-top: 20px;
+}

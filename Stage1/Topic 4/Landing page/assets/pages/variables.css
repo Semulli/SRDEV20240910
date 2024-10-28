@@ -1,0 +1,14 @@
+:root {
+  /* COLORS */
+  --maincolor: #303031;
+  --othercolor: #66645e;
+  --btncolor: #71a894;
+  --bordercolor: #e7e7e7;
+  --shadowcolor: #f3f0ea;
+  --membercolor: #66645e;
+  --boxcolor: #f3f0ea;
+
+  /* FONTS */
+  --Opensans: "Open Sans", sans-serif;
+  --Roboto: "Roboto", serif;
+}

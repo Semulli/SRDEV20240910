@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent-box {
+  display: flex;
+  gap: 5px;
+  width: 600px;
+  height: auto;
+}
+div img {
+  height: 200px;
+  width: 200px;
+}

@@ -1,0 +1,18 @@
+:root {
+  /* COLORS */
+  --maincolor: #4caf4f;
+  --navcolor: #18191f;
+  --paragraphcolor: #717171;
+  --mainheadingcolor: #4d4d4d;
+  --btntextcolor: #fff;
+  --btnhovercolor: #154a15;
+  --sectionbg: #f5f7fa;
+  --footerbg: #263238;
+
+  /* BORDERS */
+  --btnborder: 4px;
+
+  /* FONTS */
+  --Roboto: "Roboto", sans-serif;
+  --Inter: "Inter", sans-serif;
+}

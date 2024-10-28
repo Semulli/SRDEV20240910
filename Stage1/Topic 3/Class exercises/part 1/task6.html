@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeeksforGeeks Survey Form</title>
+    <link rel="stylesheet" href="gbt.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>GeeksforGeeks Survey Form</h1>
+
+      <form>
+        <!-- Name input -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Yuvraj Ghule"
+            required
+          />
+        </div>
+
+        <!-- Email input -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="yuvraj@gmail.com"
+            required
+          />
+        </div>
+
+        <!-- Age input -->
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" placeholder="23" required />
+        </div>
+
+        <!-- Dropdown (Occupation) -->
+        <div class="form-group">
+          <label for="occupation">Which option best describes you?</label>
+          <select id="occupation" name="occupation" required>
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <!-- Radio Buttons (Recommendation) -->
+        <div class="form-group">
+          <label>Would you recommend GeeksforGeeks to a friend?</label>
+          <div class="radio-group">
+            <input type="radio" id="yes" name="recommend" value="yes" />
+            <label for="yes">Yes</label><br />
+            <input type="radio" id="no" name="recommend" value="no" />
+            <label for="no">No</label><br />
+            <input type="radio" id="maybe" name="recommend" value="maybe" />
+            <label for="maybe">Maybe</label>
+          </div>
+        </div>
+
+        <!-- Checkboxes (Languages) -->
+        <div class="form-group">
+          <label>Languages and Frameworks known (Check all that apply)</label>
+          <div class="checkbox-group">
+            <input type="checkbox" id="c" name="language" value="C" />
+            <label for="c">C</label><br />
+            <input type="checkbox" id="cpp" name="language" value="C++" />
+            <label for="cpp">C++</label><br />
+            <input type="checkbox" id="csharp" name="language" value="C#" />
+            <label for="csharp">C#</label><br />
+            <input type="checkbox" id="java" name="language" value="Java" />
+            <label for="java">Java</label><br />
+            <input type="checkbox" id="python" name="language" value="Python" />
+            <label for="python">Python</label><br />
+            <input
+              type="checkbox"
+              id="javascript"
+              name="language"
+              value="JavaScript"
+            />
+            <label for="javascript">JavaScript</label><br />
+            <input type="checkbox" id="react" name="language" value="React" />
+            <label for="react">React</label><br />
+            <input
+              type="checkbox"
+              id="angular"
+              name="language"
+              value="Angular"
+            />
+            <label for="angular">Angular</label><br />
+            <input type="checkbox" id="django" name="language" value="Django" />
+            <label for="django">Django</label><br />
+            <input type="checkbox" id="spring" name="language" value="Spring" />
+            <label for="spring">Spring</label>
+          </div>
+        </div>
+
+        <!-- Text Area (Suggestions) -->
+        <div class="form-group">
+          <label for="comments">Any comments or suggestions</label>
+          <textarea
+            id="comments"
+            name="comments"
+            rows="4"
+            placeholder="Everything perfect"
+          ></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
