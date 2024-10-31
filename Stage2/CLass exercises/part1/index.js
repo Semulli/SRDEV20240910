@@ -68,11 +68,10 @@
 // Convert it to celsius and output "NN°F is NN°C."
 
 // task5;
-let C = 20;
-let F = (9 / 5) * C + 32;
+// let C = 20;
+// let F = (9 / 5) * C + 32;
 
-console.log(C + " is " + F);
-
-let f = 10;
-let c = (5 / 9) * (f - 32);
-console.log(f + " is " + c);
+// console.log(C + " is " + F);
+// let f = 10;
+// let c = (5 / 9) * (f - 32);
+// console.log(f + " is " + c);
