@@ -1,9 +1,13 @@
-const OrderQuestion = confirm("Do you want order something?");
+const customerQuestion = confirm("Do you want order something?");
 
-if (OrderQuestion) {
-  console.log("OK, what do you want?.");
+if (customerQuestion) {
+  const question1 = prompt("Which meals do you want to order??");
+
+  if (question1 == "hamburger menu") {
+    console.log(`your ${question1} will prepared))`);
+  } else if (question1 == "cheeseburger menu") {
+    console.log(`${question1} will prepared soon`);
+  }
 } else {
-  console.log(
-    "Guy, are you crazy??!! if you don't want deliver something, please don't waste my time"
-  );
+  console.log("so, what are you doing here??");
 }
